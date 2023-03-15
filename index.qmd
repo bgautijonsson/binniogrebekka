@@ -6,6 +6,37 @@ execute:
 embed-resources: true
 include-after-body: 
   - footer.html
+form:
+  id: MyFormID
+  submit: "Senda"
+  action: "javascript:submit()"
+  fields:
+  - name: Text1
+    type: text
+    id: textid
+    label: "Fjöldi gesta"
+    required: true
+  - name: Text1
+    type: text
+    id: textid
+    label: "Nöfn gesta"
+    required: true
+  - name: Text1
+    type: text
+    id: textid
+    label: "Sérstakar fæðuóskir/þarfir/ofnæmi?"
+    required: true
+  - name: Selector
+    type: select
+    id: selector1
+    label: Ætlar þú að mæta?
+    multiple: false #multiple selections?
+    size: 2 #number to size
+    values:
+    - text: Ég mæti!
+      value: 1
+    - text: Ég mæti ekki
+      value: 2
 ---
 # Forsíða
 
@@ -40,6 +71,8 @@ Staðfestið komu
 </p>
 
 </div>
+
+{{< form >}}
 
 # Dagskrá
 
