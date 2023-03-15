@@ -36,21 +36,12 @@ $font-family-base:              "Lato";
 $font-family-monospace:         SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 $headings-font-family:          "Bookman", "Playfair Display";
-
-  
-$carousel-control-color:        $primary;
-$carousel-caption-color:        $primary;
-$carousel-indicator-active-bg:  $primary;
-$carousel-control-width:        15%;
 /*-- scss:rules --*/  
 
 h1 {
   opacity: 0 !important;
 }
 
-h2 {
-    font-family: "Dancing Script";
-}
 
 
 
@@ -119,4 +110,26 @@ $timelinesize:          60px;
 
 .timeline li:first-child:after{
   content: none;
+}
+
+
+
+#timer {  
+  font-size: 3em;
+  font-weight: 100;
+  color: #6a4934;
+  padding-bottom: 50px;
+  text-align: center;
+  
+  div {
+    display: inline-block;
+    min-width: 90px;
+    
+    span {
+      color: #6a4934;
+      display: block;
+      font-size: .35em;
+      font-weight: 400;
+    }
+  }
 }
