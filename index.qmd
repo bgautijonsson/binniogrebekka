@@ -42,11 +42,16 @@ Dagskrá
 
 
 
-<iframe src="horizontal-timeline/index.html">
+```{=html}
+<div class="container">
+  <ul class="timeline">
+    <li>Athöfn</li>
+    <li>Veisla</li>
+    <li>partý</li>
 
-</iframe>
-
-
+  </ul>
+</div>
+```
 
 
 # Veislustjórar 
@@ -80,12 +85,12 @@ Kjartan Darri Kristjánsson
 
 :::
 
-# Gjafir
+# Gjafalisti
 
 <div style="text-align:center">
 
 <p style="font-size:42px;color:#6a4934;font-family:'Courgette'">
-Gjafir 
+Gjafalisti 
 </p>
 
 </div>

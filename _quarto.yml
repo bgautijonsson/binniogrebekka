@@ -14,8 +14,8 @@ website:
         text: Dagskrá
       - href: index.qmd#Veislustjórar
         text: Veislustjórar
-      - href: index.qmd#Gjafir
-        text: Gjafir
+      - href: index.qmd#Gjafalisti
+        text: Gjafalisti
 
 format:
   html:
