@@ -1,0 +1,91 @@
+---
+execute:
+    echo: false
+    message: false
+    warning: false
+---
+# Forsíða
+
+::: {layout-ncol=2 .column-page}
+
+<div style="text-align:center;">
+
+<p style="font-family:'Dancing Script';font-size:52px;text-align:center;color:#2b061e"> 
+Binni & Rebekka 
+</p>
+
+<p style="font-family:'Dancing Script';font-size:32px;text-align:center;color:#2b061e"> 
+Bjóða í brúðkaup og veislu
+</p>
+
+<p style="font-family:'Dancing Script';font-size:32px;text-align:center;color:#2b061e"> 
+Kalastaðakoti  <br>1. Júlí 2023
+</p>
+
+</div>
+
+![](Images/dalle_rbggj.PNG){width="100%"}
+
+:::
+
+# Staðfesting
+
+# Dagskrá
+
+<div style="text-align:center">
+
+<p style="font-size:42px;color:#6a4934;font-family:'Courgette'">
+Dagskrá 
+</p>
+
+</div>
+
+
+
+<iframe src="horizontal-timeline/index.html">
+
+</iframe>
+
+
+
+
+# Veislustjórar 
+
+<div style="text-align:center">
+
+<p style="font-size:42px;color:#6a4934;font-family:'Courgette';justify-content:center;">
+Veislustjórar 
+</p>
+
+</div>
+
+::: {layout-ncol=2 .column-page}
+
+<div>
+
+<p style="font-size:22px;color:#6a4934;font-family:'Courgette'">
+Guðmundur Felixson 
+</p>
+
+</div>
+
+
+<div>
+
+<p style="font-size:22px;color:#6a4934;font-family:'Courgette'">
+Kjartan Darri Kristjánsson 
+</p>
+
+</div>
+
+:::
+
+# Gjafir
+
+<div style="text-align:center">
+
+<p style="font-size:42px;color:#6a4934;font-family:'Courgette'">
+Gjafir 
+</p>
+
+</div>

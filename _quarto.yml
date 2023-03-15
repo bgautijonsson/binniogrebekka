@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  search: false
+  navbar:
+    left:
+      - href: index.qmd#Forsíða
+        text: Forsíða
+      - href: index.qmd#Staðfesting
+        text: Staðfesting
+      - href: index.qmd#Dagskrá
+        text: Dagskrá
+      - href: index.qmd#Veislustjórar
+        text: Veislustjórar
+      - href: index.qmd#Gjafir
+        text: Gjafir
+
+format:
+  html:
+    theme: [lux, theme.scss]
+    css: styles.css
+
+
+
