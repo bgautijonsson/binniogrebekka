@@ -9,6 +9,8 @@ $secondary:                     hsla(0, 9%, 98%, 1);
 $success:                       hsla(213, 48%, 58%, 1);
 $body-bg:                       $secondary;
 
+$text-brown:                    hsla(23, 34%, 31%, 1);
+
 $font-size-base:                1rem; 
 $font-family-sans-serif:        "Lato", "Open Sans", "Montserrat", "Roboto", 
                                 // Cross-platform generic font family (default user interface font)
@@ -117,7 +119,7 @@ $timelinesize:          60px;
 #timer {  
   font-size: 3em;
   font-weight: 100;
-  color: #6a4934;
+  color: $text-brown;
   padding-bottom: 50px;
   text-align: center;
   
@@ -126,10 +128,25 @@ $timelinesize:          60px;
     min-width: 90px;
     
     span {
-      color: #6a4934;
+      color: $text-brown;
       display: block;
       font-size: .35em;
       font-weight: 400;
     }
   }
+}
+
+
+.section-header {
+  font-size: 42px;
+  color: $text-brown;
+  font-family: Courgette;
+  text-align: center;
+}
+
+.veislustjorar {
+    font-size: 22px;
+    color: $text-brown;
+    font-family: Courgette;
+    text-align: center;
 }

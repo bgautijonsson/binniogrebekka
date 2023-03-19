@@ -64,25 +64,25 @@ Kalastaðakoti  <br>1. Júlí 2023
 
 # Staðfesting
 
-<div style="text-align:center">
 
-<p style="font-size:42px;color:#6a4934;font-family:'Courgette'">
+
+::: {.section-header}
 Staðfestið komu 
-</p>
+:::
 
-</div>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdn6ML_pvc6fAZuO66G5OKFUmfNdPdYvQC3hZD8dg8rQddN2w/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+
+
+
 
 {{< form >}}
 
 # Dagskrá
 
-<div style="text-align:center">
-
-<p style="font-size:42px;color:#6a4934;font-family:'Courgette'">
+::: {.section-header}
 Dagskrá 
-</p>
-
-</div>
+:::
 
 
 
@@ -92,7 +92,6 @@ Dagskrá
     <li>Athöfn</li>
     <li>Veisla</li>
     <li>partý</li>
-
   </ul>
 </div>
 ```
@@ -100,42 +99,22 @@ Dagskrá
 
 # Veislustjórar 
 
-<div style="text-align:center">
-
-<p style="font-size:42px;color:#6a4934;font-family:'Courgette';justify-content:center;">
+::: {.section-header}
 Veislustjórar 
-</p>
-
-</div>
-
-::: {layout-ncol=2 .column-page}
-
-<div>
-
-<p style="font-size:22px;color:#6a4934;font-family:'Courgette'">
-Guðmundur Felixson 
-</p>
-
-</div>
-
-
-<div>
-
-<p style="font-size:22px;color:#6a4934;font-family:'Courgette'">
-Kjartan Darri Kristjánsson 
-</p>
-
-</div>
-
 :::
+
+::: {layout-ncol=2 .veislustjorar}
+Guðmundur Felixson 
+
+Kjartan Darri Kristjánsson 
+:::
+
 
 # Gjafalisti
 
-<div style="text-align:center">
-
-<p style="font-size:42px;color:#6a4934;font-family:'Courgette'">
+::: {.section-header}
 Gjafalisti 
-</p>
+:::
 
-</div>
+
 
