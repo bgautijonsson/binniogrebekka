@@ -3,7 +3,6 @@ execute:
     echo: false
     message: false
     warning: false
-embed-resources: true
 include-after-body: 
   - footer.html
 form:
@@ -72,10 +71,12 @@ Staðfestið komu
 
 <div id="googleform">
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdn6ML_pvc6fAZuO66G5OKFUmfNdPdYvQC3hZD8dg8rQddN2w/viewform?embedded=true" width="640" height="100%" frameborder="0" marginheight="0" marginwidth="0">
+
+```{=html}
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdn6ML_pvc6fAZuO66G5OKFUmfNdPdYvQC3hZD8dg8rQddN2w/viewform?embedded=true" width="640" height="100%">
 Loading…
 </iframe>
-
+```
 
 </div>
 
@@ -116,6 +117,4 @@ Kjartan Darri Kristjánsson
 ::: {.section-header}
 Gjafalisti 
 :::
-
-
 

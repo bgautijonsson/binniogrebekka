@@ -1,0 +1,8 @@
+/* css styles */
+
+.styled {
+  font-size: 1.1em;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0%, 20%);
+}
