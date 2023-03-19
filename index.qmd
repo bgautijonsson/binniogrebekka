@@ -70,13 +70,14 @@ Kalastaðakoti  <br>1. Júlí 2023
 Staðfestið komu 
 :::
 
+<div id="googleform">
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdn6ML_pvc6fAZuO66G5OKFUmfNdPdYvQC3hZD8dg8rQddN2w/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdn6ML_pvc6fAZuO66G5OKFUmfNdPdYvQC3hZD8dg8rQddN2w/viewform?embedded=true" width="640" height="100%" frameborder="0" marginheight="0" marginwidth="0">
+Loading…
+</iframe>
 
 
-
-
-{{< form >}}
+</div>
 
 # Dagskrá
 
