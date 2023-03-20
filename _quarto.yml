@@ -5,6 +5,8 @@ project:
     port: 4200
 
 website:
+  title: Brúðkaup R&B
+  favicon: "favicon/favicon-32x32.png"
   search: false
   navbar: false
 
