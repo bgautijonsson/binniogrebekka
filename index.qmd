@@ -91,7 +91,7 @@ Dagskrá
       Partý
       <lord-icon 
         src="https://cdn.lordicon.com/tzprdzhj.json" 
-        trigger="loop-on-hover" 
+        trigger="loop" 
         colors="primary:#2b061e" 
         style="width:100%;">
 </lord-icon>
@@ -108,9 +108,9 @@ Veislustjórar
 :::
 
 ::: {layout-ncol=2 .veislustjorar}
-Guðmundur Felixson 
+Guðmundur<br>Felixson 
 
-Kjartan Darri Kristjánsson 
+Kjartan Darri<br>Kristjánsson 
 :::
 
 
