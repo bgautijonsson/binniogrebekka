@@ -1,26 +1,18 @@
 project:
   type: website
   output-dir: docs
+  preview:
+    port: 4200
 
 website:
   search: false
-  navbar:
-    left:
-      - href: index.qmd#Forsíða
-        text: Forsíða
-      - href: index.qmd#Staðfesting
-        text: Staðfesting
-      - href: index.qmd#Dagskrá
-        text: Dagskrá
-      - href: index.qmd#Veislustjórar
-        text: Veislustjórar
-      - href: index.qmd#Gjafalisti
-        text: Gjafalisti
+  navbar: false
 
 format:
   html:
     theme: [lux, theme.scss]
     css: styles.css
+    include-in-header: Header/header.html
 
 
 

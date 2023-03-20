@@ -42,9 +42,16 @@ $headings-font-family:          "Bookman", "Playfair Display";
 
 h1 {
   opacity: 0 !important;
+  padding: 0;
+  margin: 0;
 }
 
 
+body > nav > div > div.d-flex.flex-row > header > div > a > h2 {
+  font-size: 48px;
+  font-family: "Playfair Display";
+  color: $secondary;
+}
 
 
 /* css styles */
@@ -71,6 +78,9 @@ $timelinesize:          60px;
   position: relative;
   text-align: center;
   text-transform: uppercase;
+  color: #2b061e;
+  font-family: Ubuntu;
+  font-weight: 1;
 }
 
 
@@ -83,7 +93,8 @@ $timelinesize:          60px;
   line-height: $timelinesize;
   margin: 0 auto 10px auto;
   background: #F1F1F1;
-  color: #000;
+  color: #2b061e;
+  font-family: Ubuntu;
 }
 
 .timeline li:nth-child(1):before{
@@ -145,7 +156,14 @@ $timelinesize:          60px;
 }
 
 .veislustjorar {
-    font-size: 22px;
+    font-size: 1.6vw;
+    color: $text-brown;
+    font-family: Courgette;
+    text-align: center;
+}
+
+.text {
+    font-size: 16px;
     color: $text-brown;
     font-family: Courgette;
     text-align: center;
@@ -156,5 +174,125 @@ $timelinesize:          60px;
   text-align: center;
   margin-bottom: 50px;
   width: 100%;
-  height: 850px;
+  height: 1000px;
+  margin-bottom: -100px;
+}
+
+.navbar-container {
+  align-items: center;
+  text-align: center;
+}
+
+.hero-banner {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #f0f0f0;
+  border: 3px ridge #737373;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-figure {
+  padding-left: 15px;
+  border-left: 2px groove #737373;
+}
+
+#p1 {
+    font-family: Dancing Script;
+    font-size: 4.8vw;
+    text-align: center;
+    color: #2b061e
+  }
+  
+#p2 {
+    font-family: Dancing Script;
+    font-size: 3.3vw;
+    text-align: center;
+    color: #2b061e
+}
+  
+#p3 {
+    font-family: Dancing Script;
+    font-size: 2.3vw;
+    text-align: center;
+    color: #2b061e
+}
+  
+@media (max-width: 470px) {
+  #p1 {
+    font-family: Dancing Script;
+    font-size: 35px;
+    text-align: center;
+    color: #2b061e
+  }
+  
+  #p2 {
+    font-family: Dancing Script;
+    font-size: 25px;
+    text-align: center;
+    color: #2b061e
+  }
+  
+  #p3 {
+    font-family: Dancing Script;
+    font-size: 15px;
+    text-align: center;
+    color: #2b061e
+  } 
+
+}  
+
+@media (max-width: 767px) {
+  
+  .hero-banner {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #f0f0f0;
+    border: 3px ridge #737373;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    left: 50%;
+    right: 50%;
+  }
+
+
+  .card-figure {
+    padding-left: 0px;
+    border-left: 0px;
+  }
+  
+  #p1 {
+    font-family: Dancing Script;
+    font-size: 40px;
+    text-align: center;
+    color: #2b061e
+  }
+  
+  #p2 {
+    font-family: Dancing Script;
+    font-size: 25px;
+    text-align: center;
+    color: #2b061e
+  }
+  
+  #p3 {
+    font-family: Dancing Script;
+    font-size: 20px;
+    text-align: center;
+    color: #2b061e
+  } 
+  
 }

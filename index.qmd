@@ -5,59 +5,37 @@ execute:
     warning: false
 include-after-body: 
   - footer.html
-form:
-  id: MyFormID
-  submit: "Senda"
-  action: "javascript:submit()"
-  fields:
-  - name: Text1
-    type: text
-    id: textid
-    label: "Fjöldi gesta"
-    required: true
-  - name: Text1
-    type: text
-    id: textid
-    label: "Nöfn gesta"
-    required: true
-  - name: Text1
-    type: text
-    id: textid
-    label: "Sérstakar fæðuóskir/þarfir/ofnæmi?"
-    required: true
-  - name: Selector
-    type: select
-    id: selector1
-    label: Ætlar þú að mæta?
-    multiple: false #multiple selections?
-    size: 2 #number to size
-    values:
-    - text: Ég mæti!
-      value: 1
-    - text: Ég mæti ekki
-      value: 2
+toc: true
+toc-location: left
+toc-title: Efnisyfirlit
 ---
 # Forsíða
 
-::: {layout-ncol=2 .column-page}
+::: {layout-ncol=2 .column-page .hero-banner}
 
 <div style="text-align:center;">
 
-<p style="font-family:'Dancing Script';font-size:52px;text-align:center;color:#2b061e"> 
+<p id="p1"> 
 Binni & Rebekka 
 </p>
 
-<p style="font-family:'Dancing Script';font-size:32px;text-align:center;color:#2b061e"> 
+<p id="p2"> 
 Bjóða í brúðkaup og veislu
 </p>
 
-<p style="font-family:'Dancing Script';font-size:32px;text-align:center;color:#2b061e"> 
+<p id="p2"> 
 Kalastaðakoti  <br>1. Júlí 2023
+</p>
+
+<br>
+
+<p id="p3"> 
+Við hlökkum til að sjá ykkur!
 </p>
 
 </div>
 
-![](Images/dalle_rbggj.PNG){width="100%"}
+![](Images/dalle_rbggj.PNG){width="90%" .card-figure}
 
 :::
 
@@ -91,9 +69,33 @@ Dagskrá
 ```{=html}
 <div class="container">
   <ul class="timeline">
-    <li>Athöfn</li>
-    <li>Veisla</li>
-    <li>partý</li>
+    <li>
+      Athöfn
+      <lord-icon 
+        src="https://cdn.lordicon.com/xryjrepg.json" 
+        trigger="loop-on-hover" 
+        colors="primary:#2b061e" 
+        style="width:100%">
+      </lord-icon>
+    </li>
+    <li>
+      Veisla
+      <lord-icon id="styled" 
+        src="https://cdn.lordicon.com/zlllsfoh.json" 
+        trigger="loop-on-hover" 
+        colors="primary:#2b061e" 
+        style="width:100%;">
+      </lord-icon>
+    </li>
+    <li>
+      Partý
+      <lord-icon 
+        src="https://cdn.lordicon.com/tzprdzhj.json" 
+        trigger="loop-on-hover" 
+        colors="primary:#2b061e" 
+        style="width:100%;">
+</lord-icon>
+    </li>
   </ul>
 </div>
 ```
@@ -102,7 +104,7 @@ Dagskrá
 # Veislustjórar 
 
 ::: {.section-header}
-Veislustjórar 
+Veislustjórar
 :::
 
 ::: {layout-ncol=2 .veislustjorar}
@@ -112,9 +114,21 @@ Kjartan Darri Kristjánsson
 :::
 
 
+::: {.text}
+Ef þið viljið skipuleggja skemmtilegan leik eða halda ræðu í veislunni, hafið samband við veislustjórana í tölvupósti: gummifel@gmail.com
+:::
+
+
+
+
 # Gjafalisti
 
 ::: {.section-header}
 Gjafalisti 
 :::
 
+:::{.text}
+  Við eigum nánast allt sem hugurinn girnist, en við myndum glöð þiggja framlög í brúðkaupsferðarsjóðinn: XXXX-XXX-XXXXXX
+  
+  Við erum líka með lítinn gjafalista hjá BÚÐSEMVIÐVILJUM
+:::
