@@ -73,8 +73,7 @@ Dagskrá
       Mæting
       <lord-icon
         src="https://cdn.lordicon.com/cdmspjhf.json"
-        trigger="loop" 
-        delay="2000"
+        trigger="loop-on-hover" 
         colors="primary:#2b061e" 
         style="width:100%;">
       </lord-icon>
