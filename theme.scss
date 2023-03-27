@@ -73,11 +73,16 @@ $timelinesize:          60px;
   width: 100%;
 }
 
+.timeline {
+  width: 100%;
+  font-size: 20px;
+}
+
 
 .timeline li{
   list-style: none;
   float: left;
-  width: 33.3333%;
+  width: 25%;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -101,14 +106,18 @@ $timelinesize:          60px;
 }
 
 .timeline li:nth-child(1):before{
-  content: "16:00";
+  content: "15:30";
 }
 
 .timeline li:nth-child(2):before{
-  content: "18:00";
+  content: "16:00";
 }
 
 .timeline li:nth-child(3):before{
+  content: "18:00";
+}
+
+.timeline li:nth-child(4):before{
   content: "21:00";
 }
 
@@ -175,9 +184,7 @@ $timelinesize:          60px;
 }
 
 #googleform {
-  float: left;
   text-align: center;
-  margin-bottom: 50px;
   width: 100%;
   height: 1000px;
   margin-bottom: -100px;
@@ -247,7 +254,56 @@ $timelinesize:          60px;
   .veislustjorar {
     font-size: 5vw;
   }
+  
+  .timeline {
+    font-size: 15px;
+  }
+  
+  .timeline li:before{
+    width: $timelinesize * 0.8;
+    height: $timelinesize * 0.8;
+    border-radius: $timelinesize * 0.8;
+    line-height: $timelinesize * 0.8;
+  }
+  
+  .timeline li:after{
+  top: $timelinesize / 2 * 0.8;
+  }
 }  
+
+@media (max-width: 410px) {
+  .timeline {
+    font-size: 12px;
+  }
+  
+  .timeline li:before{
+    width: $timelinesize * 0.7;
+    height: $timelinesize * 0.7;
+    border-radius: $timelinesize * 0.7;
+    line-height: $timelinesize * 0.7;
+  }
+  
+  .timeline li:after{
+  top: $timelinesize / 2 * 0.7;
+  }
+}
+
+@media (max-width: 350px) {
+  .timeline {
+    font-size: 10px;
+  }
+  
+  .timeline li:before{
+    width: $timelinesize * 0.7;
+    height: $timelinesize * 0.7;
+    border-radius: $timelinesize * 0.7;
+    line-height: $timelinesize * 0.7;
+  }
+  
+  .timeline li:after{
+  top: $timelinesize / 2 * 0.7;
+  }
+}
 
 @media (max-width: 767px) {
   .card-figure {

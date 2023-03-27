@@ -70,6 +70,15 @@ Dagskrá
 <div class="container">
   <ul class="timeline">
     <li>
+      Mæting
+      <lord-icon
+        src="https://cdn.lordicon.com/cdmspjhf.json"
+        trigger="loop" 
+        delay="2000"
+        colors="primary:#2b061e" 
+        style="width:100%;">
+      </lord-icon>
+    <li>
       Athöfn
       <lord-icon 
         src="https://cdn.lordicon.com/xryjrepg.json" 
@@ -107,11 +116,17 @@ Dagskrá
 Veislustjórar
 :::
 
-::: {layout-ncol=2 .veislustjorar}
-Guðmundur<br>Felixson 
-
-Kjartan Darri<br>Kristjánsson 
-:::
+```{=html}
+<div class="row veislustjorar">
+  <div class="column">
+    Guðmundur<br>Felixson 
+  </div>
+  <div class="column">
+    Kjartan Darri<br>Kristjánsson 
+  </div>
+</div>
+<br>
+```
 
 
 ::: {.text}
