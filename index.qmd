@@ -13,7 +13,7 @@ toc-title: Efnisyfirlit
 
 ::: {layout-ncol=2 .column-page .hero-banner}
 
-<div style="text-align:center;">
+<div id="textrow" style="text-align:center;width:50%">
 
 <p id="p1"> 
 Binni & Rebekka 
@@ -35,7 +35,7 @@ Við hlökkum til að sjá ykkur!
 
 </div>
 
-![](Images/dalle_rbggj.PNG){width="90%" .card-figure}
+![](Images/dalle_rbggj.PNG){.card-figure}
 
 :::
 
