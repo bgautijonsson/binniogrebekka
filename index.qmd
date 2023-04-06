@@ -20,7 +20,7 @@ Rebekka & Binni
 </p>
 
 <p id="p2"> 
-Bjóða í brúðkaup og veislu
+Bjóða í brúðkaup og veislu að
 </p>
 
 <p id="p2"> 
