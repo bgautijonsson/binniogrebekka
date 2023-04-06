@@ -16,7 +16,7 @@ toc-title: Efnisyfirlit
 <div id="textrow" style="text-align:center;width:50%">
 
 <p id="p1"> 
-Binni & Rebekka 
+Rebekka & Binni
 </p>
 
 <p id="p2"> 
