@@ -186,7 +186,7 @@ $timelinesize:          60px;
 #googleform {
   text-align: center;
   width: 100%;
-  height: 1700px;
+  height: 1100px;
   margin-bottom: -100px;
 }
 
@@ -303,6 +303,10 @@ $timelinesize:          60px;
   .timeline li:after{
   top: $timelinesize / 2 * 0.7;
   }
+  
+  #googleform {
+    height: 2200px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -325,6 +329,9 @@ $timelinesize:          60px;
   .veislustjorar {
     font-size: 3vw;
     width: 100%;
+  }
   
+  #googleform {
+    height: 1200px;
   }
 }
